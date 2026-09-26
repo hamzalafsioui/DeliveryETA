@@ -1,0 +1,10 @@
+services:
+  deliveryeta:
+    build: .
+    container_name: deliveryeta-app
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./models:/app/models
+      - ./data/processed:/app/data/processed
+    restart: unless-stopped

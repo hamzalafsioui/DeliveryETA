@@ -1,0 +1,21 @@
+.git
+.gitignore
+.venv
+venv
+env
+__pycache__
+*.pyc
+.ipynb_checkpoints
+
+# Large/raw data
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.zip
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model/cache files if not needed during build
+*.log
